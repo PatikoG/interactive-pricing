@@ -9,6 +9,7 @@
 body {
   background-image: url(/images/bg-pattern.svg);
   background-repeat: no-repeat;
+  background-size: 100% 70%;
 }
 
 .wrapper {
@@ -288,6 +289,9 @@ body {
   text-align: center;
   color: #ff8d68;
 }
+.none{
+  display: none;
+}
 
 .forgrid{
     display: flex;
@@ -329,9 +333,73 @@ body {
     height: 397px;
 }
 
+.forgrid{
+  display: grid;
+  grid-template-columns:50% 50%;
+
+}
+
+.monthlycost{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+#progress{
+  width: 216px;
+  grid-column-start:1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  transform: translate(0px, 41px);
+}
+
+.rangechange{
+  width: 444px;
+  grid-column-start:1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
 
 
+.changebilling{
+  margin-top: 40px;
+  column-gap: 16px;
+  margin-left: 89px;
+}
 
+.discount{
+  width: 80px;
+  height: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 14px;
+  color: #FF8D68;
+}
+
+.none{
+  display: block;
+}
+
+
+.whatyougot{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.checklist{
+  margin-top: 25px;
+}
 
 
 
