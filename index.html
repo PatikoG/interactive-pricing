@@ -21,24 +21,24 @@
       <div class="trialinfos">
         <div class="textinfos">
             <div class="forgrid">
-          <p class="pageviews" id="pageViewers"> k pageviews</p>
+          <p class="pageviews" id="pageViewers">100k pageviews</p>
           <input
             oninput="handleInput(this)"
             id="rangeValue"
             type="range"
             min="1"
-            max="32"
+            max="32"`
             value="16"
             class="rangechange"
           />
           <div id="progress"></div>
-          <p class="monthlycost" id="costOfTrial"><span class="cost">$16.00</span>/month</p>
+          <p class="monthlycost" id="costOfTrial"><span class="cost" id="dollarcost">$16.00</span>/month</p>
         </div>
 
           <div class="changebilling">
             <p class="monthly">monthly Billing</p>
             <label class="switch">
-              <input type="checkbox" class="coolcheckbox"  id="checkbilling"/>
+              <input type="checkbox" class="coolcheckbox"  id="checkbilling" onclick="changevalue(this)"/>
               <span class="slider round"></span>
             </label>
             <p class="yearly">Yearly Billing</p>
