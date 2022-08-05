@@ -97,8 +97,17 @@ body {
   background-image: url(../images/icon-slider.svg);
   background-repeat: no-repeat;
   background-position: 50%;
+  
   z-index: 2;
   position: relative;
+}
+
+.rangechange::-webkit-slider-thumb:hover{
+  background: #7AEADF;
+  box-shadow: 0px 15px 30px rgba(0, 255, 231, 0.6);
+  background-image: url(../images/icon-slider.svg);
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 #progress {
@@ -254,6 +263,12 @@ body {
   color: #becdff;
 
   margin-top: 33px;
+}
+
+.mytrial:hover{
+  background: #293356;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 .monthly {

@@ -5,6 +5,7 @@ const progressbar = document.getElementById("progress");
 const dollar = document.getElementById("dollarcost");
 const checked = document.getElementById("checkbilling");
 
+"use strict"; 
 
 function handleInput(inputD){
     progressbar.style.width = (inputD.value / 32 * inputD.clientWidth) + "px";
